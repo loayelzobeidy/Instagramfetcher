@@ -8,5 +8,5 @@ const router = express.Router(); // eslint-disable-line new-cap
 router.get('/test',(req,res)=>{
     res.json({message: "OK"})
 })
-router.post('/test2',userManager.test)
+router.post('/test2',userManager.getInstagramData)
 module.exports = router;
